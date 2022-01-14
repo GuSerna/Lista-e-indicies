@@ -10,8 +10,7 @@ def verifica_soma(lista_numerica, valor_esperado):
            print('Numeros: ', lista_numerica[i], lista_numerica[e])
            print('Indices: ', i, e)
            print('Valor esperado: ', valor_esperado)
-          if (soma == valor_esperado):
-              l = True
+           l = True
     if not 'l' in locals():
         print('VALOR ALVO NÃO ENCONTRADO')
 verifica_soma([1,2,3,4,5,6,7,8,9], 10)
@@ -28,8 +27,7 @@ def verifica_soma(lista_numerica, valor_esperado):
            print('Numeros: ', lista_numerica[i], lista_numerica[e])
            print('Indices: ', i, e)
            print('Valor esperado: ', valor_esperado)
-           if (soma == valor_esperado):
-               l = True
+           l = True
     if not 'l' in locals():
             print('VALOR ALVO NÃO ENCONTRADO')
 verifica_soma([3,8,9,6,8,5], 10)
@@ -46,9 +44,7 @@ def verifica_soma(lista_numerica, valor_esperado):
            print('Numeros: ', lista_numerica[i], lista_numerica[e])
            print('Indices: ', i, e)
            print('Valor esperado: ', valor_esperado)
-           print('Total: ', soma)
-          if (soma == valor_esperado):
-              l = True
+           l = True
     if not 'l' in locals():
         print('VALOR ALVO NÃO ENCONTRADO')
 
